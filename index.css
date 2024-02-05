@@ -1,0 +1,18 @@
+body {
+    background-image: url("side-eye-cat.jpg");
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.grid-item {
+    background-color: rgb(47, 255, 168);
+    border-radius: 50%;
+    height: 200px;
+}
+
+.grid-item:hover {
+    opacity: 0;
+}
